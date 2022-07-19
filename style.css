@@ -6,3 +6,83 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* container part */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+
+    width: 1100px;
+    height: 543px;
+    background: #161616;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.sub-container{
+    display: flex;
+}
+
+.short-discription{
+ width: 400px;
+height: 424px;
+margin-top: 40px;
+margin-left: 90px;
+}
+
+.discription-first{
+
+    color: white;
+    font-size: 46px;
+}
+
+.discription-sec{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.button {
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 5px;
+    background-image: linear-gradient(#DD0000,#DD0000);
+    color: white;
+    font-weight: 500px;
+    
+}
+
+.image-section img{
+
+    width: 471px;
+height: 513px;
+margin-top: 30px;
+margin-left: 40px;
+}
+
+/* animation use */
+
+.image-section :hover{
+
+    position: relative;
+    animation: sliding 1s ease-in-out 0.5s 10 alternate;
+    animation-play-state: running;
+}
+/* .image-section:hover{
+
+    transform: rotate(-180deg);
+} */
+
+@keyframes sliding {
+    from {
+
+        left: 0;
+    }
+
+    to {
+        left: 100px;
+
+    }
+}
+/* animation end */
