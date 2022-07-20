@@ -5,6 +5,7 @@
 /* common styles or utilities */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 
 /* first container part */
@@ -93,7 +94,7 @@ margin-left: 40px;
 
 /* secound-part  start*/
 
-.container-secondn{
+.container-second{
     display: flex;
 }
 
@@ -108,6 +109,7 @@ height: 300px;
    margin-right: 20px;
    border-radius: 13px;
    margin-bottom: 100px;
+   /* margin-top: 18px; */
 }
 
 .blogs{
@@ -119,7 +121,7 @@ height: 300px;
 .button-side{
 
    margin-top: 60px;
-   margin-left: 35px;
+   margin-left: 25px;
 
 }
 .button-first{
@@ -128,7 +130,7 @@ height: 300px;
 
 .button-first-design{
     text-decoration: none;
-    padding: 13px 46px;
+    padding: 13px 26px;
     border-radius: 7px;
     background-color: aliceblue;
     color: black;
@@ -138,7 +140,7 @@ height: 300px;
 }
 .button-second-design{
     text-decoration: none;
-    padding: 13px 78px;
+    padding: 13px 58px;
     border-radius: 7px;
     background-color: aliceblue;
     color: black;
@@ -147,7 +149,7 @@ height: 300px;
 
 .button-third-design {
     text-decoration: none;
-    padding: 13px 97px;
+    padding: 13px 77px;
     border-radius: 5px;
     background-image: linear-gradient(#DD0000,#DD0000);
     color: white;
@@ -155,7 +157,125 @@ height: 300px;
     
 }
 
+/* blog part */
+.container-second{
+    margin-bottom: 100px;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.transfer{
+    padding-left: 0;
+    padding-right: 20px;
+    width: 237px;
+    box-shadow:10px 6.34229px 100.3557px #E8E8E8;
+    border-radius: 15px;
+}
+
+.transfer .transfer-banner img{
+    width: 254px;
+    height: 160px;
+}
+.transfer-detail{
+
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.transfer-title{
+
+    font-size: 15px;
+}
+.transfer-button{
+    text-decoration: none;
+    padding: 4px 20px;
+    border-radius: 7px;
+    background-color: aliceblue;
+    color: black;
+    font-weight: 500px;
+    border: 1px solid black;
+   
+}
+.transfer-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fa-comment-dots{
+
+    font-size: 20px;
+}
+
+/* blog part end */
 
 
+/* footer part start */
+.footer-title {
+    background-color: black;
+    color:white;
+    text-align: center;
+    width: 100%;
+height: 344px;
+padding-top: 60px;
 
+margin-left: 0;
 
+}
+.foot-text{
+    font-size: 35px;
+
+}
+
+hr{
+    border: 1px solid gray;
+    margin-bottom: 27px;
+    width: 1120px;
+}
+.menu{
+    margin-left: 200px;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 35px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+nav>ul{
+    display: flex;
+}
+
+.social{
+
+    margin-top: 60px;
+}
+.icon{
+   margin-right: 10px;
+}
+.fa-facebook-square{
+    font-size: 40px;
+
+}
+
+.fa-instagram-square{
+    font-size: 40px;
+   
+    
+}
+.fa-twitter-square{
+    font-size: 40px;
+}
+.fa-whatsapp-square{
+    font-size: 40px;
+}
