@@ -5,7 +5,7 @@
 /* common styles or utilities */
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0% auto;
+    margin: 0%;
 }
 
 /* first container part */
@@ -98,8 +98,7 @@ margin-left: 40px;
     display: flex;
 }
 
-/* also use upcoming html class"match" */
-.side-nav, .blogs, .matchs {
+.side-nav, .blogs, .matchs{
     float: left;
 }
 aside{
@@ -112,8 +111,8 @@ height: 300px;
    margin-bottom: 100px;
    /* margin-top: 18px; */
 }
-/* also use upcoming html class"match" */
-.blogs , .matchs{
+
+.blogs, .matchs{
     background-color: white;
  width: calc(100% - 300px);
 
@@ -127,9 +126,6 @@ height: 300px;
 }
 .button-first{
     margin-bottom: 60px;
-    width: 220px;
-    margin-left: 8px;
-    
 }
 
 .button-first-design{
@@ -165,7 +161,7 @@ height: 300px;
 .container-second{
     margin-bottom: 100px;
 }
-/* also use upcoming html class"match" */
+
 .blogs, .matchs{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -287,7 +283,7 @@ nav>ul{
 /* footer part end */
 
 
-/* upcoming match part start */
+/* new part */
 
 .button-design{
     text-decoration: none;
@@ -345,50 +341,6 @@ nav>ul{
     font-size: 15px;
 }
 
-/* upcoming match part end */
 
 
-/* Media Queary for Mobile Device */
 
-@media only screen and (max-width:688px) {
-
-.sub-container{
-   display: grid;
-   grid-template-columns: repeat(1, 1fr);
-}
-.container{
-
-    height: auto;
-}
-
-
-.container-second{
-
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-}
-
-.blogs{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-}
-.menu{
-    float: right;
-   
-}
-nav>ul{
-    display: grid;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-}
-
-.matchs{
-
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-
-}
-
-
-    
-}
