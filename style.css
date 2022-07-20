@@ -412,7 +412,7 @@ nav>ul{
 
 /* Media Queary for Tablet */
 
-@media only screen and (min-width:688px) and (max-width:992px) {
+@media only screen and (min-width:688px) and (max-width:1142px) {
 
     .container{
         display: grid;
@@ -483,6 +483,7 @@ hr{
   
     margin-left: -330px;
     margin-right: 120px;
+    margin-bottom: 30px;
 
    
 }
@@ -513,13 +514,35 @@ nav>ul{
 
 }
 
+/* This bonus button show only Tablet */
+.button-bonus{
 
-
+    display: block;
+}
 
 }
 
+/* Bonus Button Only for Tablet */
+
+.bonus-button{
+margin-bottom: 50px;
+text-align: center;
+
+}
+
+.button-bonus{
+
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 5px;
+    background-image: linear-gradient(#DD0000,#DD0000);
+    color: white;
+    font-weight: 500px;
+
+    display: none;
+}
 
 
-
+/* End */
 
 
