@@ -358,7 +358,10 @@ nav>ul{
 }
 .container{
 
+    width: 530px;
     height: auto;
+
+   margin-left: -60px;
 }
 
 
@@ -366,18 +369,30 @@ nav>ul{
 
     display: grid;
     grid-template-columns: repeat(1,1fr);
+    margin-left: 40px;
+  
+}
+aside{
+    margin-left: -20px;
 }
 
 .blogs{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    
 }
 .menu{
     float: right;
+    margin-left: -100px;
+    margin-right: 120px;
    
 }
+
+hr{
+    width: 300px;
+}
 nav>ul{
-    display: grid;
+    
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
@@ -392,3 +407,119 @@ nav>ul{
 
     
 }
+/* Media Queary for Mobile Device end*/
+
+
+/* Media Queary for Tablet */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+   margin-left: -60px;
+     }
+
+
+     .container-second{
+
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 140px;
+      
+    }
+
+    .button-side{
+        display: flex;
+        
+    }
+aside{
+    background-color: white;
+    width: 600px;
+height: 400px;
+row-gap: 10px;
+
+margin-left: 40px;
+   margin-right: 0px;
+   border-radius: 0px;
+   margin-bottom: -100px;
+}
+
+.button-first-design{
+
+    padding: 10px 16px;
+    border-radius: 7px;
+    border: 1px solid black;
+
+}
+
+.button-second-design{
+ 
+    padding: 10px 46px;
+    border-radius: 7px;
+    border: 1px solid black;
+  
+}
+
+.button-third-design {
+
+    padding: 14px 76px;
+    border-radius: 7px;
+
+    
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+hr{
+    width: 650px;
+}
+
+.menu{
+    float: right;
+  
+    margin-left: -330px;
+    margin-right: 120px;
+
+   
+}
+nav>ul{
+    
+    display: flex;
+    /* grid-template-columns: repeat(1, 1fr); */
+}
+.footer-title {
+    
+    width: 1100px;
+    
+
+
+}
+
+.matchs{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+.button-design{
+   
+    padding: 13px 17px;
+    border-radius: 5px;
+
+}
+
+
+
+
+}
+
+
+
+
+
+
