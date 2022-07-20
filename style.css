@@ -7,12 +7,12 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-/* container part */
-main{
+/* first container part */
+/* main{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 .container{
 
     width: 1100px;
@@ -20,6 +20,8 @@ main{
     background: #161616;
     border-radius: 30px;
     margin-top: 50px;
+    margin-bottom: 90px;
+   margin-left: 120px;
 }
 .sub-container{
     display: flex;
@@ -52,6 +54,7 @@ margin-left: 90px;
     font-weight: 500px;
     
 }
+
 
 .image-section img{
 
@@ -86,3 +89,73 @@ margin-left: 40px;
     }
 }
 /* animation end */
+/* first part end */
+
+/* secound-part  start*/
+
+.container-secondn{
+    display: flex;
+}
+
+.side-nav, .blogs {
+    float: left;
+}
+aside{
+    background-color: black;
+    width: 300px;
+height: 300px;
+    margin-left: 120px;
+   margin-right: 20px;
+   border-radius: 13px;
+   margin-bottom: 100px;
+}
+
+.blogs{
+    background-color: white;
+ width: calc(100% - 300px);
+
+ margin-right: 120px;
+}
+.button-side{
+
+   margin-top: 60px;
+   margin-left: 35px;
+
+}
+.button-first{
+    margin-bottom: 60px;
+}
+
+.button-first-design{
+    text-decoration: none;
+    padding: 13px 46px;
+    border-radius: 7px;
+    background-color: aliceblue;
+    color: black;
+    font-weight: 500px;
+   
+    
+}
+.button-second-design{
+    text-decoration: none;
+    padding: 13px 78px;
+    border-radius: 7px;
+    background-color: aliceblue;
+    color: black;
+    font-weight: 500px;
+}
+
+.button-third-design {
+    text-decoration: none;
+    padding: 13px 97px;
+    border-radius: 5px;
+    background-image: linear-gradient(#DD0000,#DD0000);
+    color: white;
+    font-weight: 500px;
+    
+}
+
+
+
+
+
